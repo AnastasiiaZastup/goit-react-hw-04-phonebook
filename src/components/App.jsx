@@ -57,6 +57,8 @@ export const App = () => {
     item.name.toLowerCase().includes(filter.toLowerCase())
   );
 
+  
+
   return (
     <>
       <ContactForm onAdd={addContact} />
